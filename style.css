@@ -1,0 +1,107 @@
+/* universal rest */
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+img{
+       display: block;
+       max-width: 100%;
+}
+
+/* normal styling */
+body{
+       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+       text-transform: capitalize;
+       width: 100%;
+       min-height: 100vh;
+}
+header{
+       width: 100%;
+       padding: 1rem 0;
+}
+header nav{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       max-width: 1200px;
+       margin: 0 auto;
+}
+header nav .logo{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 1;
+}
+header nav .logo img{
+       border-radius: 50%;
+}
+header nav .logo p{
+       font-size: larger;
+       font-weight: 600;
+}
+header nav ul{
+       display: flex;
+}
+header nav ul li{
+       list-style: none;
+       padding: 0 1em 0 1em;
+}
+header nav ul li a{
+       display: inline-block;
+       text-decoration: none;
+       color: black;
+}
+main{
+       width: 100%;
+       display: flex;
+       justify-content: space-evenly;
+       padding-top: 3em;
+}
+form{
+       width: 50%;
+}
+form div{
+       padding-bottom: 1em;
+}
+form div label{
+       font-size: large;
+       font-weight: 500;
+}
+form div input{
+       width: 55%;
+       height: 35px;
+       border: 1px solid black;
+       border-radius: 3px;
+       padding: 0 7px;
+}
+.cards{
+       width: 40%;
+       text-transform: capitalize;
+}
+ .cards .card{
+       width: 80%;
+       border: 1px solid rgb(77, 77, 68);
+       margin-bottom: 2em;
+}
+
+.cards .card  img{
+       width: 100%;
+} 
+.cards .cardtext{
+       padding: 10px;
+}
+.cards .cardtext h1{
+       font-weight: 500;
+       
+}
+.cards .cardtext h3{
+       padding: 7px 0;
+       font-weight: 400;
+}
+.cards .cardtext p{
+       text-align: start;
+       letter-spacing: 1.5;
+}
+
